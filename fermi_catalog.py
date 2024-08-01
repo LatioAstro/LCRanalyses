@@ -4,6 +4,8 @@ import pandas as pd
 # The LCR is based on the Fermi 4FGL-DR3 catalog:
 # https://arxiv.org/pdf/2201.11184
 # Here we collect functions to extract information from teh Fermi LAT catalog
+# For the 4FGL query you can pull any column available in the 4FGL catalog 
+# (same keyword names as in Table 12 of https://arxiv.org/pdf/1902.10045.pdf)
 
 """
 --------------------------------------------------------------------------
@@ -31,14 +33,14 @@ df_4fgldr3 = pd.read_csv('4fgl-dr3_LCR.csv', sep = ',', dtype={'Source_Name': st
 																'CLASS1': str, 
 																'ASSOC1': str} )
 
-print(df_4fgldr3)
+# print(df_4fgldr3)
 
 
 def select_allblazars():
 	print('-----------------------------')
 	print('Selecting BL Lac type blazars')
 	blz_df = df_4fgldr3.loc[(df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL') | \
-						 (df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL') | \
+						 (df_4fgldr3['CLASS1'] == 'fsrq') | (df_4fgldr3['CLASS1'] == 'FSRQ') | \
 						 (df_4fgldr3['CLASS1'] == 'bcu')]
 
 	return blz_df

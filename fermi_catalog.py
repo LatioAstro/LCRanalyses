@@ -33,37 +33,41 @@ df_4fgldr3 = pd.read_csv('4fgl-dr3_LCR.csv', sep = ',', dtype={'Source_Name': st
 																'CLASS1': str, 
 																'ASSOC1': str} )
 
-# print(df_4fgldr3)
+var_index_th = 21.67
 
 
 def select_allblazars():
 	print('-----------------------------')
 	print('Selecting BL Lac type blazars')
-	blz_df = df_4fgldr3.loc[(df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL') | \
-						 (df_4fgldr3['CLASS1'] == 'fsrq') | (df_4fgldr3['CLASS1'] == 'FSRQ') | \
-						 (df_4fgldr3['CLASS1'] == 'bcu')]
-
+	blz_df = df_4fgldr3.loc[(df_4fgldr3['Variability_Index'] >= var_index_th) & \
+						    ((df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL') | \
+						    (df_4fgldr3['CLASS1'] == 'fsrq') | (df_4fgldr3['CLASS1'] == 'FSRQ') | \
+						    (df_4fgldr3['CLASS1'] == 'bcu'))]
+	print('Total number of variable objects:', len(blz_df))
 	return blz_df
 
 def select_bll():
 	print('-----------------------------')
 	print('Selecting BL Lac type blazars')
-	bll_df = df_4fgldr3.loc[(df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL')]
-
+	bll_df = df_4fgldr3.loc[(df_4fgldr3['Variability_Index'] >= var_index_th) & \
+						   ((df_4fgldr3['CLASS1'] == 'bll') | (df_4fgldr3['CLASS1'] == 'BLL'))]
+	print('Total number of variable objects:', len(bll_df))
 	return bll_df
 
 def select_fsrq():
 	print('-----------------------------')
 	print('Selecting FSRQ type blazars')
-	fsrq_df = df_4fgldr3.loc[(df_4fgldr3['CLASS1'] == 'fsrq') | (df_4fgldr3['CLASS1'] == 'FSRQ')]
-
+	fsrq_df = df_4fgldr3.loc[(df_4fgldr3['Variability_Index'] >= var_index_th) & \
+						    ((df_4fgldr3['CLASS1'] == 'fsrq') | (df_4fgldr3['CLASS1'] == 'FSRQ'))]
+	print('Total number of variable objects:', len(fsrq_df))
 	return fsrq_df
 
 def select_bcu():
 	print('-----------------------------')
 	print('Selecting unknown type blazars')
-	bcu_df = df_4fgldr3.loc[(df_4fgldr3['CLASS1'] == 'bcu')]
-
+	bcu_df = df_4fgldr3.loc[(df_4fgldr3['Variability_Index'] >= var_index_th) &
+						    (df_4fgldr3['CLASS1'] == 'bcu')]
+	print('Total number of variable objects:', len(bcu_df))
 	return bcu_df
 
 
@@ -72,3 +76,5 @@ if __name__ == '__main__':
 	print(select_bll())
 	print(select_fsrq())
 	print(select_bcu())
+
+	print(select_allblazars())

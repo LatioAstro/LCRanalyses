@@ -5,19 +5,22 @@ def fvar(flux,flux_err):
 	#Error calculated with Equation (37) of the same paper
 
 	N=len(flux)
-	variance=np.var(flux) #variance
-	mean_squared_error=(1/N)*np.sum(flux_err**2)
-	mean_flux=np.mean(flux)
-	# print("N, variance, mean_squared_error, mean_flux", N, variance, mean_squared_error, mean_flux)
+	if N < 1:
+		fvar, fvar_err = np.NaN, np.NaN
+	else:
+		variance=np.var(flux) #variance
+		mean_squared_error=(1/N)*np.sum(flux_err**2)
+		mean_flux=np.mean(flux)
+		# print("N, variance, mean_squared_error, mean_flux", N, variance, mean_squared_error, mean_flux)
 
-	num = abs(variance-mean_squared_error)
-	den = mean_flux**2
+		num = abs(variance-mean_squared_error)
+		den = mean_flux**2
 
-	fvar=np.sqrt(num/den)
+		fvar=np.sqrt(num/den)
 
-	fvar_err=np.sqrt(fvar**2 + np.sqrt((2/N) * (mean_squared_error/den)**2 + (mean_squared_error/N) * (2*fvar/mean_flux)**2 )) - fvar
+		fvar_err=np.sqrt(fvar**2 + np.sqrt((2/N) * (mean_squared_error/den)**2 + (mean_squared_error/N) * (2*fvar/mean_flux)**2 )) - fvar
 
-	# print('num, den, fvar, fvar_err', num, den, fvar, fvar_err)
+		# print('num, den, fvar, fvar_err', num, den, fvar, fvar_err)
 
 
 	return fvar,fvar_err

@@ -25,7 +25,7 @@ def amp(flux,flux_err):
     #Error of the mean, i.e. standard deviation divided by the squared root of the number of data points
     sigma_mean = np.std(flux_err)/np.sqrt(len(flux_err)) 
 
-    if diff**2 < 2 * sigma_mean**2:
+    if diff**2 < (sigma_max**2 + sigma_min**2):
         amp, amp_percent, amp_percent_err = np.NaN, np.NaN, np.NaN
 
     else:    

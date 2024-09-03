@@ -9,6 +9,10 @@ import numpy as np
 #Since we have different errors for each point, instead of twice the squared error we can the sum of the squared errors of the maximum and minimum flux points
 
 def amp(flux,flux_err):
+    #We need to normalize the values to a mean flux of 1, otherwise the errors of Amp will become huge
+    flux=flux/np.mean(flux)
+    flux_err=flux_err/np.mean(flux)
+    
     flux_max = np.max(flux)
     flux_min = np.min(flux)
 
@@ -21,24 +25,18 @@ def amp(flux,flux_err):
     diff = flux_max - flux_min
 
     mean_flux = np.mean(flux)
-
+    
     #Error of the mean, i.e. standard deviation divided by the squared root of the number of data points
-    sigma_mean = np.std(flux_err)/np.sqrt(len(flux_err)) 
+    sigma_mean = np.std(flux)/np.sqrt(len(flux_err)) 
 
     if diff**2 < (sigma_max**2 + sigma_min**2):
-        amp, amp_percent, amp_percent_err = np.NaN, np.NaN, np.NaN
+        A, amp_percent, amp_percent_err = np.NaN, np.NaN, np.NaN
 
     else:    
-        amp = np.sqrt(diff**2 - (sigma_max**2 + sigma_min**2))
+        A = np.sqrt(diff**2 - sigma_max**2 - sigma_min**2)
 
-        amp_percent = amp * 100/mean_flux
+        amp_percent = A * 100./mean_flux
 
-        amp_percent_err = 100 * diff/(mean_flux * amp) * np.sqrt((sigma_max/mean_flux)**2 + (sigma_min/mean_flux)**2 + (sigma_mean/diff)**2 * amp**4)
+        amp_percent_err = 100. * diff/(mean_flux * A) * np.sqrt((sigma_max/mean_flux)**2 + (sigma_min/mean_flux)**2 + (sigma_mean/diff)**2 * A**4)
 
     return amp_percent, amp_percent_err
-
-        
-
-    
-
-    

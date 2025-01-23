@@ -160,3 +160,5 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 new_db_Feb2023.csv
+.venv
+gll_psc_v35.fit

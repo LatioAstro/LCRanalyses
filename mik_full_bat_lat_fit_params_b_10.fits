@@ -1,0 +1,236 @@
+SIMPLE  =                    T / Standard FITS format                           BITPIX  =                    8 / Character data                                 NAXIS   =                    1 / Text string                                    NAXIS1  =                12317 / Number of characters                           VOTMETA =                    T / Table metadata in VOTable format               EXTEND  =                    T / There are standard extensions                  COMMENT                                                                         COMMENT The data in this primary HDU consists of bytes which                    COMMENT comprise a VOTABLE document.                                            COMMENT The VOTable describes the metadata of the table contained               COMMENT in the following BINTABLE extension.                                    COMMENT Such a BINTABLE extension can be used on its own as a perfectly         COMMENT good table, but the information from this HDU may provide some          COMMENT useful additional metadata.                                             COMMENT There is one following BINTABLE.                                        NTABLE  =                    1 / Number of following BINTABLE HDUs              END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             <?xml version='1.0'?>
+<VOTABLE version="1.4"
+ xmlns="http://www.ivoa.net/xml/VOTable/v1.3">
+<!--
+ !  VOTable written by STIL version 3.4-debian (uk.ac.starlink.votable.VOTableWriter)
+ !  at 2024-02-06T21:41:12
+ !-->
+<RESOURCE>
+<!-- Describes BINTABLE extensions in the following HDU.-->
+<TABLE name="Joined" nrows="88">
+<PARAM arraysize="19" datatype="char" name="DATE-HDU" value="2020-08-25T14:35:34">
+<DESCRIPTION>Date of HDU creation (UTC)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="12" datatype="char" name="STILVERS" value="3.2.2-debian">
+<DESCRIPTION>Version of STIL software</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="42" datatype="char" name="STILCLAS" value="uk.ac.starlink.votable.FitsPlusTableWriter">
+<DESCRIPTION>Author class in STIL so</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="27" datatype="char" name="First input table" value="1: Tsuji_catalog_Table1.csv"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="2: bat_105_upd_ctpt.fits"/>
+<PARAM arraysize="126" datatype="char" name="COMMENT" value=" *** End of mandatory fields ***   *** Column names ***   *** Column formats ***   *** Column dimensions (2 D or greater) *** ">
+<DESCRIPTION>FITS COMMENT card values</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TLMIN3" value="0.0"/>
+<PARAM datatype="double" name="TLMAX3" value="360.0"/>
+<PARAM datatype="double" name="TLMIN4" value="-90.0"/>
+<PARAM datatype="double" name="TLMAX4" value="90.0"/>
+<PARAM datatype="double" name="TLMIN5" value="0.0"/>
+<PARAM datatype="double" name="TLMAX5" value="360.0"/>
+<PARAM datatype="double" name="TLMIN6" value="-90.0"/>
+<PARAM datatype="double" name="TLMAX6" value="90.0"/>
+<PARAM datatype="double" name="TLMIN7" value="0.0"/>
+<PARAM datatype="double" name="TLMIN8" value="0.0"/>
+<PARAM datatype="double" name="TLMIN10" value="0.0"/>
+<PARAM datatype="double" name="TLMIN11" value="0.0"/>
+<PARAM datatype="double" name="TLMIN15" value="0.0"/>
+<PARAM datatype="double" name="TLMIN16" value="0.0"/>
+<PARAM datatype="double" name="TLMIN17" value="0.0"/>
+<PARAM datatype="double" name="TEMIN17" value="1000.0"/>
+<PARAM datatype="double" name="TEMAX17" value="100000.0"/>
+<PARAM datatype="double" name="TEMIN18" value="1000.0"/>
+<PARAM datatype="double" name="TEMAX18" value="100000.0"/>
+<PARAM datatype="double" name="TLMIN19" value="0.0"/>
+<PARAM datatype="int" name="TEMIN19" value="100"/>
+<PARAM datatype="double" name="TEMAX19" value="100000.0"/>
+<PARAM datatype="double" name="TLMIN20" value="0.0"/>
+<PARAM datatype="int" name="TEMIN20" value="100"/>
+<PARAM datatype="double" name="TEMAX20" value="100000.0"/>
+<PARAM datatype="double" name="TLMIN22" value="0.0"/>
+<PARAM datatype="double" name="TLMIN23" value="0.0"/>
+<PARAM datatype="double" name="TLMIN24" value="0.0"/>
+<PARAM datatype="double" name="TLMAX24" value="5.0"/>
+<PARAM datatype="double" name="TLMIN25" value="0.0"/>
+<PARAM datatype="double" name="TLMAX25" value="5.0"/>
+<PARAM datatype="double" name="TLMIN26" value="0.0"/>
+<PARAM datatype="double" name="TLMIN27" value="0.0"/>
+<PARAM datatype="double" name="TLMIN28" value="0.0"/>
+<PARAM datatype="double" name="TLMAX28" value="5.0"/>
+<PARAM datatype="double" name="TLMIN29" value="0.0"/>
+<PARAM datatype="double" name="TLMAX29" value="5.0"/>
+<PARAM datatype="double" name="TLMIN30" value="-1.0"/>
+<PARAM datatype="double" name="TLMAX30" value="1.0"/>
+<PARAM datatype="double" name="TLMIN32" value="0.0"/>
+<PARAM datatype="double" name="TLMIN33" value="0.0"/>
+<PARAM datatype="double" name="TLMIN34" value="0.0"/>
+<PARAM datatype="double" name="TLMIN35" value="0.0"/>
+<PARAM datatype="double" name="TLMIN36" value="0.0"/>
+<PARAM datatype="double" name="TLMIN37" value="0.0"/>
+<PARAM datatype="double" name="TLMAX37" value="5.0"/>
+<PARAM datatype="double" name="TLMIN38" value="0.0"/>
+<PARAM datatype="double" name="TLMAX38" value="5.0"/>
+<PARAM datatype="double" name="TLMIN39" value="-0.5"/>
+<PARAM datatype="double" name="TLMAX39" value="10.0"/>
+<PARAM datatype="double" name="TLMIN41" value="0.0"/>
+<PARAM datatype="double" name="TLMAX41" value="5.0"/>
+<PARAM datatype="double" name="TLMIN42" value="0.0"/>
+<PARAM datatype="double" name="TLMAX42" value="5.0"/>
+<PARAM datatype="double" name="TLMIN43" value="0.0"/>
+<PARAM datatype="double" name="TLMIN44" value="0.0"/>
+<PARAM datatype="double" name="TLMIN45" value="0.0"/>
+<PARAM datatype="double" name="TLMIN46" value="0.0"/>
+<PARAM datatype="double" name="TEMIN55" value="50.0">
+<DESCRIPTION>Minimum energy for Flux_Peak(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMAX55" value="1000000.0">
+<DESCRIPTION>Maximum energy for Flux_Peak(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMIN56" value="50.0">
+<DESCRIPTION>Minimum energy for Unc_Flux_Peak(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMAX56" value="1000000.0">
+<DESCRIPTION>Maximum energy for Unc_Flux_Peak(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMIN59" value="50.0">
+<DESCRIPTION>Minimum energy for Flux_History(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMAX59" value="1000000.0">
+<DESCRIPTION>Maximum energy for Flux_History(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMIN60" value="50.0">
+<DESCRIPTION>Minimum energy for Unc_Flux_History(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="TEMAX60" value="1000000.0">
+<DESCRIPTION>Maximum energy for Unc_Flux_History(MeV)</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="5" datatype="char" name="TELESCOP" value="GLAST"/>
+<PARAM arraysize="3" datatype="char" name="INSTRUME" value="LAT"/>
+<PARAM datatype="double" name="EQUINOX" value="2000.0"/>
+<PARAM arraysize="3" datatype="char" name="RADECSYS" value="FK5"/>
+<PARAM arraysize="19" datatype="char" name="DATE" value="2021-06-22T12:12:02"/>
+<PARAM arraysize="24" datatype="char" name="DATE-OBS" value="2008-08-04T15:43:36.4941"/>
+<PARAM arraysize="24" datatype="char" name="DATE-END" value="2020-08-02T08:33:14.9999"/>
+<PARAM datatype="double" name="TSTART" value="2.39557417494E8"/>
+<PARAM datatype="double" name="TSTOP" value="6.1805E8"/>
+<PARAM arraysize="1" datatype="char" name="TIMEUNIT" value="s"/>
+<PARAM arraysize="2" datatype="char" name="TIMESYS" value="TT"/>
+<PARAM datatype="double" name="MJDREFI" value="51910.0"/>
+<PARAM datatype="double" name="MJDREFF" value="7.428703703703703E-4">
+<DESCRIPTION>Frac. part of MJD of SC clock start</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="15" datatype="char" name="OBSERVER" value="Peter Michelson"/>
+<PARAM arraysize="5" datatype="char" name="ORIGIN" value="LISOC"/>
+<PARAM arraysize="14" datatype="char" name="CREATOR" value="PointSourceCat"/>
+<PARAM arraysize="3" datatype="char" name="VERSION" value="v28"/>
+<PARAM arraysize="51" datatype="char" name="HDUDOC" value="GLAST Project Science Data products format document"/>
+<PARAM arraysize="4" datatype="char" name="HDUCLASS" value="OGIP"/>
+<PARAM arraysize="5" datatype="char" name="HDUVERS" value="1.0.0"/>
+<PARAM arraysize="7" datatype="char" name="HDUCLAS1" value="SRCLIST"/>
+<PARAM arraysize="4" datatype="char" name="CDS-NAME" value="4FGL"/>
+<PARAM arraysize="17" datatype="char" name="STVERS" value="fermi-1.4.7-sympy"/>
+<PARAM arraysize="17" datatype="char" name="PIPVERS" value="Gpipeline-v7r16p1"/>
+<PARAM arraysize="11" datatype="char" name="RUNNAME" value="P8R3_uw1216"/>
+<PARAM arraysize="14" datatype="char" name="RSPFUNC" value="P8R3_SOURCE_V3"/>
+<PARAM datatype="int" name="TSMIN" value="25"/>
+<PARAM datatype="double" name="NPREDMIN" value="5.0"/>
+<PARAM datatype="int" name="EMIN" value="50"/>
+<PARAM datatype="double" name="EMAX" value="1000000.0"/>
+<PARAM arraysize="3" datatype="char" name="ENERDISP" value="yes"/>
+<PARAM datatype="double" name="SYSREL" value="0.0"/>
+<PARAM datatype="double" name="ERRUPLIM" value="2.0"/>
+<PARAM datatype="double" name="TSUPLIM" value="1.0"/>
+<PARAM datatype="double" name="ERPOSABS" value="0.0075">
+<DESCRIPTION>systematic value (deg) added in quadrature conf</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="ERPOSFAC" value="1.033">
+<DESCRIPTION>Systematic factor applied to conf95</DESCRIPTION>
+</PARAM>
+<PARAM datatype="int" name="TSCURMIN" value="4"/>
+<PARAM arraysize="16" datatype="char" name="CHECKSUM" value="YXZpbXXnZXXnaXXn">
+<DESCRIPTION>HDU checksum updated 2021-09-03T13:57:11</DESCRIPTION>
+</PARAM>
+<PARAM datatype="int" name="DATASUM" value="1591076054">
+<DESCRIPTION>data unit checksum updated 2021-09-03T13:57:11</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="ERFLUVAR" value="0.0">
+<DESCRIPTION>Relative systematic error for flux variability</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="7" datatype="char" name="VARMODE" value="loglike">
+<DESCRIPTION>Variability computation mode 'chi2'|'loglike'</DESCRIPTION>
+</PARAM>
+<PARAM datatype="double" name="VARMIN" value="24.7249703097">
+<DESCRIPTION>Variability index threshold</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="59" datatype="char" name="HISTORY" value="File modified by user 'jbb' with fv  on 2021-07-06T11:55:39">
+<DESCRIPTION>FITS HISTORY card values</DESCRIPTION>
+</PARAM>
+<PARAM datatype="int" name="TLMIN2" value="1"/>
+<PARAM datatype="int" name="TLMAX2" value="3"/>
+<PARAM datatype="double" name="TLMIN74" value="0.0"/>
+<PARAM datatype="double" name="TLMIN75" value="0.0"/>
+<PARAM datatype="double" name="TLMAX74" value="1.0"/>
+<PARAM datatype="double" name="TLMAX75" value="1.0"/>
+<PARAM datatype="double" name="TLMIN76" value="0.0"/>
+<PARAM datatype="double" name="TLMAX76" value="360.0"/>
+<PARAM datatype="double" name="TLMIN77" value="-90.0"/>
+<PARAM datatype="double" name="TLMAX77" value="90.0"/>
+<PARAM datatype="double" name="TLMIN78" value="0.0"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="3" datatype="char" name="Match algorithm" value="Sky">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="13" datatype="char" name="First input table" value="5: match(1,2)"/>
+<PARAM arraysize="18" datatype="char" name="Second input table" value="6: gll_psc_v28.fit"/>
+<PARAM arraysize="33" datatype="char" name="Match type" value="Pair match; Best match, symmetric">
+<DESCRIPTION>Type of match which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="11" datatype="char" name="Match algorithm" value="Exact Value">
+<DESCRIPTION>Matching algorithm which created this table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="82" datatype="char" name="Join Type" value="1 and 2 (An output row for each row represented in both input tables (INNER JOIN))">
+<DESCRIPTION>Determines which rows appear in output table</DESCRIPTION>
+</PARAM>
+<PARAM arraysize="35" datatype="char" name="First input table" value="1: mik_full_bat_lat_fit_params.fits"/>
+<PARAM arraysize="24" datatype="char" name="Second input table" value="2: beamed_AGN_Tsuji.fits"/>
+<FIELD arraysize="48" datatype="char" name="BAT_NAME"/>
+<FIELD arraysize="48" datatype="char" name="LAT_NAME"/>
+<FIELD datatype="double" name="norm" unit="ph cm-2 s-1 keV-1"/>
+<FIELD datatype="double" name="gamma1"/>
+<FIELD datatype="double" name="gamma1_err"/>
+<FIELD datatype="double" name="gamma2"/>
+<FIELD datatype="double" name="gamma2_err"/>
+<FIELD datatype="double" name="log10(e_break)" unit="keV"/>
+<FIELD datatype="double" name="log10(e_break_err)" unit="keV"/>
+<FIELD arraysize="48" datatype="char" name="function"/>
+<FIELD datatype="double" name="flag"/>
+<!-- Dummy VOTable - no DATA element -->
+</TABLE>
+</RESOURCE>
+</VOTABLE>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   XTENSION= 'BINTABLE'           / binary table extension                         BITPIX  =                    8 / 8-bit bytes                                    NAXIS   =                    2 / 2-dimensional table                            NAXIS1  =                  208 / width of table in bytes                        NAXIS2  =                   88 / number of rows in table                        PCOUNT  =                    0 / size of special data area                      GCOUNT  =                    1 / one data group                                 TFIELDS =                   11 / number of columns                              EXTNAME = 'Joined  '           / table name                                     TTYPE1  = 'BAT_NAME'           / label for column 1                             TFORM1  = '48A     '           / format for column 1                            TTYPE2  = 'LAT_NAME'           / label for column 2                             TFORM2  = '48A     '           / format for column 2                            TTYPE3  = 'norm    '           / label for column 3                             TFORM3  = 'D       '           / format for column 3                            TUNIT3  = 'ph cm-2 s-1 keV-1'  / units for column 3                             TTYPE4  = 'gamma1  '           / label for column 4                             TFORM4  = 'D       '           / format for column 4                            TTYPE5  = 'gamma1_err'         / label for column 5                             TFORM5  = 'D       '           / format for column 5                            TTYPE6  = 'gamma2  '           / label for column 6                             TFORM6  = 'D       '           / format for column 6                            TTYPE7  = 'gamma2_err'         / label for column 7                             TFORM7  = 'D       '           / format for column 7                            TTYPE8  = 'log10(e_break)'     / label for column 8                             TFORM8  = 'D       '           / format for column 8                            TUNIT8  = 'keV     '           / units for column 8                             TTYPE9  = 'log10(e_break_err)' / label for column 9                             TFORM9  = 'D       '           / format for column 9                            TUNIT9  = 'keV     '           / units for column 9                             TTYPE10 = 'function'           / label for column 10                            TFORM10 = '48A     '           / format for column 10                           TTYPE11 = 'flag    '           / label for column 11                            TFORM11 = 'D       '           / format for column 11                           DATE-HDU= '2024-02-06T21:41:12' / Date of HDU creation (UTC)                    STILVERS= '3.4-debian'         / Version of STIL software                       STILCLAS= 'uk.ac.starlink.votable.FitsPlusTableWriter' / STIL Author class      END                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             [HB89]0537-441                                  4FGL J0538.8-4405                               >†>¡ú±Â1?‚≤´ƒ˚Ó@?√vú¨ïn@ <‰Ò⁄ÓM?UhÖF~l @^ö’≤Õm?ßì◊§XÄsmpl                                                    Mrk421                                          4FGL J1104.4+3812                               >c3ú°˛Kêø¸zóﬁÿƒÀ?J‰7> @ ¿ˆ»˜â±>?t0ææï9 @tµÚ–ßŒ?zEáñ smpl_inv                                                Mrk501                                          4FGL J1653.8+3945                               =≈ç∏*Hø˚”.ÓSù?`:%˝£ê ¿rÓz µâ?ÅZãWÄ@º¡F´)?†–Û˜≤Ñ smpl_inv                                                SHBLJ012308.7+342049                            4FGL J0123.1+3421                               =íxìß˚¿ï¸uÊñ ?∞zˇ≠ñ∫†ø˚‹m¥„?â™ü&AÓÄ@	≥’ªzÄ?º¡‡É∂ `smpl_inv                                                0133+388                                        4FGL J0136.5+3906                               =ã“∞§ºÆø¯‚IéBH3?qsgGÄ¿(ä_˜L?£MØ™¿@ÇÆM!nÖ?Ω¢-Z∫0smpl_inv                                                RBS259                                          4FGL J0156.9-5301                               =!˛Aºâæø˘/hqàÃi?çÅN•Cô¿¿ı\öõ$ê?£ƒ#º£p¿@Öó∞MÅ?√º¢ük– smpl_inv                                                QSOB0229+200                                    4FGL J0232.8+2018                               <˛ÑXaxFâø˚6VB¨=*?êÒo£qï@¿g¿{°`?ëEvÙƒ @\xK´îË?ªàöUŸ`smpl_inv                                                BZBJ0244-5819                                   4FGL J0244.6-5819                               =2&aÄ…ˆø˘£˛â_2?à6HüëÄ¿D´∆‘˛˝?¢≤˚≈
+?‡@üñ¢Ó?¡e¨Ë˜smpl_inv                                                QSOB0347-121                                    4FGL J0349.4-1159                               =%:ì¶åE5ø¸jîøv'?è¬c¢™Ä¿úCnê~ñ?óÔ÷2Î¬Ä@&ÑLt.?ƒIÄÙv)‡smpl_inv                                                PKS0352-686                                     4FGL J0353.0-6831                               =$%›Iz¯—ø˙è.‘I∑ß?ã}¢xå)¿¿æ1åÿx„?†ç•Åï=‡@UPW )¯?¿>ï„∆4–smpl_inv                                                PKS0548-322                                     4FGL J0550.5-3216                               =ˆ§¢ô£¿
+æ+U?ﬂÓ¯v&î‹ø˛@π±◊ô;?Ü^Hëœ6Ä@VÀ4v?ﬂŒ‰ˇªÃºsmpl_inv                                                2MASXJ07103005+5908202                          4FGL J0710.4+5908                               <Û·0Øf≠î¿k™à¢s?ç≤`cc ø¯lµ¢? ?âPfTî@@gñ◊Lx?∞uètAŒ¿smpl_inv                                                2MASSJ09303759+4950256                          4FGL J0930.5+4951                               =`ó7Ü+«èø˝a8`d›?î0„3eR ¿Îót∫,?∞ˆ≤ÂDzP@.>€j?œ˘x*ÿÿsmpl_inv                                                2MASSJ09343014-1721215                          4FGL J0934.5-1720                               >¯ÃO Éª¿ˇÔtR≈î@◊ lö@ΩCN^›|?}´K¥∏d ? Í$µ&?ø‰0ü:“∏smpl                                                    2MASXJ10311847+5053358                          4FGL J1031.3+5053                               =´≈¿»Ÿø˙= '‘~?{¢°Íü≈Ä¿·‡.M|ﬁ?∂£â¥™∞@
+∏Ûp†¢x?¡\™òsmpl_inv                                                2MASXJ11033765-2329307                          4FGL J1103.6-2329                               =^—]Ñî™"ø˚<	gøf?Ü8£éAˆ ¿≥ÈRÈ,
+?´Q∏=ËŸ‡@ñ§ËÀI¿?∆CnvGsmpl_inv                                                2MASXJ11363009+6737042                          4FGL J1136.4+6736                               =Qìi ççø˘3KkÅü?àË'ùe ¿/S»IÆ?óÌ€¥È€@@;◊S_±Ò?πï&c¨Ö smpl_inv                                                FBQSJ1221+3010                                  4FGL J1221.3+3010                               >!ƒMKrø˙qIçº ?pM∞Ê¸Ô ¿ÂH‰Œ◊?∞»µ¡eN‡@('BÜƒó?∞;◊sg]psmpl_inv                                                [HB89]1415+259                                  4FGL J1417.9+2543                               <Í·UÓ÷à◊øÙK¬Í*•?ìñä}  ¿⁄˛[ﬁ¿?≤Ø¿‘≠`@÷è‹êÑ?∆#Hô,ï‡smpl_inv                                                1ES1426+428                                     4FGL J1428.5+4240                               =C`∆â,ƒø˙!Ú$µÍ?|I¥ 0'Ä¿ÕöR-Á?î≠O—†¿@¿Ú@$X)?±¯"+)€ smpl_inv                                                [HB89]1803+784                                  4FGL J1800.6+7828                               >"©º°tç ?˜Sêf©Ô±?òh<H”° @yúgÒ ?b¶»¶Úö @ƒIËtpŸ?≠ö⁄]¶Ã smpl                                                    QSOB1959+650                                    4FGL J2000.0+6508                               >;ÈùŒªì¿6™˙sõ.?òó¯êæÄø¸:c"Ê~?]•‹∏Æ @·à/…?õÏÑ≤ÉÖ smpl_inv                                                H2356-309                                       4FGL J2359.0-3038                               =@Üz!M¡òø¸å˙4(?ämVÊsÄ¿£Gâ_«8?ô˘@Bkë @Kº?$ﬁ?√œŸX= smpl_inv                                                3C454.3                                         4FGL J2253.9+1609                               >ES¸}êT¥?ˆ∆	0¡G?u©†R,3Ä@2„Í0i˜?DgS∑( @5»Md!?âí(@≥ÏÄsmpl                                                    PKS2227-088                                     4FGL J2229.7-0832                               >'úç|Ø8-?ˆä(∫ìƒÇ?∫ éÿ @≈A Ωô?sæ.¡˘D @E±ˇ„π?»Xw‹ÆÁÿsmpl                                                    [HB89]2142-758                                  4FGL J2147.3-7536                               >-õWú† Í?ı 4°]’A?µlˆ˘3†@DáK«tÊ?mdÀÄ˛¨ @ì	…˜®?¬Ò}$ŸßÄsmpl                                                    3C345                                           4FGL J1642.9+3948                               >q'£„£™Q?ÒÛLæ7È?™<—X/ˆ∞@/u‹Ÿç°?sYûÇ≈¬ @ïiﬂHç]?®XìÛáØ‡smpl                                                    PKS1622-29                                      4FGL J1626.0-2950                               >A]djÆd∫?Ù∏e8?Ω5’Ñ”˚Ë@zìÁCµ?sç;e/ @'î¥k?ƒç4PÎÀ`smpl                                                    PKS1510-08                                      4FGL J1512.8-0906                               >Q¿–bóì$?Ù|,+…ò/?ï˛9Ü. @<ó)X?Q?ÄÀÖ‰ @JË˙s§?£ﬂë»†smpl                                                    3C279                                           4FGL J1256.1-0547                               >Qõn]Lá?ÛY˘´ÎL?äÖ¨d‰ØÄ@U”√5[?Fá.6’– @ü©  =)?ïG|WAO smpl                                                    3C273                                           4FGL J1229.0+0202                               >Zhô„«·?˚°nπ∂8Á?fŸ”„ @ˆØ„Ôv?^&ΩFﬁ† @t≤\ê?Å+eWÚÄsmpl                                                    PG1222+216                                      4FGL J1224.9+2122                               >'{É·c$ü?ˆ€íß˛´?úÉ‰$D”Ä@<«ˇüt?cDuàà @Œx¸59?±¯≤Dïpsmpl                                                    4C+49.22                                        4FGL J1153.4+4931                               =˛Ù˛SÏ?˚åÄ#ê'?≠N‹E’« @˛æ˝Gô?ÑÚb˝ÔÄ@ï{4-?ÃJ8Úï„hsmpl                                                    [HB89]0836+710                                  4FGL J0841.3+7053                               > • ƒ7Æ&?˙‰¿ì«Ñ?ÑXÏ&€¿@,ié∏g?j^â•Ù @ò Êâ&à?ôîÕy•- smpl                                                    PKS0528+134                                     4FGL J0530.9+1332                               >M®9lsÑl?Û¬¡éŒñ?±úñ⁄8±Ë@WHT≤¥1?Äâ4l @
+™”≥¶j?µÖñÏ2Psmpl                                                    PKS0402-362                                     4FGL J0403.9-3605                               >	•>÷^ÉF?ˆ\03ÉW?¶™⁄Np@£UÊC?n«√≈F¢ @:÷§8˘™?π…¡ˆn smpl                                                    PKS2325+093                                     4FGL J2327.5+0939                               >8d51˛”?ˆK]6Œœˇ?£âÃh√Ô @‹†G•¡?xÁ+Û©Í @¡æÓm≈2?´èú‹˜@smpl                                                    PKS2149-306                                     4FGL J2151.8-3027                               >1›ªÏà≠?˘©)yÛN%?áœ*ˇçMÄ@s6à=º<?rµƒ√V” @èC[±D?ñSTUz¿smpl                                                    [HB89]1921-293                                  4FGL J1924.8-2914                               =‰Mt§BV/?¸ô˜ù\ˆ=?¥8îÌ1h@ªÅUHq?ónxè=4 @ßÍ¿ ﬂ?›f)ƒc&Dsmpl                                                    [HB89]1354+195                                  4FGL J1357.1+1921                               =©Ò«·º?¸˘øàôü±?´∂m√G@@-¯K9Z⁄?ìÚËvâ/@@Éû¸ñ®«?«UW¶$Äsmpl                                                    PKS1329-049                                     4FGL J1332.0-0509                               >%∏9ÊÂ±?˜Zd˜6_^?¥~∑;8Œò@O÷÷ê?u*“%D @é\Ö÷q?ƒ®≈≈ã smpl                                                    4C+04.42                                        4FGL J1222.5+0414                               >A’nj O ?˜2î˘?ú˙ÈLAJ`@PfDíQ?y‚i‹÷√ @ÂóÑÓ	?•¢—R]Â†smpl                                                    FBQSJ1159+2914                                  4FGL J1159.5+2914                               >*s¶¨T†°@ È®1“A?_’Æ©§ ?ı≤+ïùÑJ?özLûºI†@Y•ôLù*?´Ê÷›≥_Äsmpl                                                    7C1150+3324                                     4FGL J1152.8+3308                               =¬T≠÷GO?¸⁄Ã(››ó?∞Aíß I @ÖœÈØmô?ïâvf°@ @´ vDi‚?«Ã;8+ smpl                                                    PKS1127-14                                      4FGL J1129.8-1447                               =Áç≠=Rs?˝j ÖÊXÿ?°â?Ø~¿@tî–É{à?á+NÂf @Â¬-˘	œ?¡©]ﬂól¿smpl                                                    [HB89]1039+811                                  4FGL J1044.6+8053                               =–ÏÜ‡ıtÈ@ /Ù+?ÉKÅöçÄ?˘@ì∂aQi?§ÄàW˚•@@Ñö~?¥OÜ|–O smpl                                                    CGRaBSJ0805+6144                                4FGL J0805.4+6147                               >M*¡@}ƒ¬?ıM6»|ñ?´˝¡@ﬁÄ@bUuºd?á¡ym§t @	«oM,†?∞9°¿≥BÄsmpl                                                    B20743+25                                       4FGL J0746.4+2546                               >J≠éR@Ç@{JB;?âLW∏lÄ?ˆπXÆ?üËK+JD @Ω8ÀS˝?•……g:÷`smpl                                                    PKS0637-752                                     4FGL J0635.6-7518                               =≥Dc≠_Û?˝ªP@◊?ö»9ú•†@-mÉä
+ç?à"éØÕoÄ@±‘≈œ|ó?º>˝ôîG@smpl                                                    [HB89]0537-286                                  4FGL J0539.9-2839                               >Pƒ}C‹K=?ı¡*&º?°‚#œ1Ä@h¯»ìdI?vz_ªØÀ @
+‘·Ü`õ
+?•2c(§U†smpl                                                    PKS0524-460                                     4FGL J0525.4-4600                               >∆ÈîˆÒ0f?‡Ï∆oÔ,O?∆Æoß@ó5*2˜?ÖöÜ†{èÄ?˚N¢?˜Ø?¨£)£–Usmpl                                                    [HB89]0403-132                                  4FGL J0405.6-1308                               =Ï)À,N+?˙hPp,?∞x„H!˘x@≥*%Ø?ÇxTïUÄ@~á¬Øì?≈îaÂÅpsmpl                                                    [HB89]0212+735                                  4FGL J0217.4+7352                               >%˝Ï\ ?¯µâ¢4!∫?ór¢-=Ñ¿@i°Ωö¡?áK´z@ @åGc’Ì?•?áêL`smpl                                                    4C+33.06                                        4FGL J0304.5+3349                               =û¯Å˛5æ7?˝©ªßÍ{?≤]ëØ @àh8∑XD?πÓ™N%`@r;VÂ?ÕÔlÌsmpl                                                    2MASXJ07332681+5153560                          4FGL J0733.4+5152                               =<¿Ø6=ÿªø˚ﬁÇ“kcÈ?ê¬'˜)Â@¿NÕÖŒa‚?™x®ÍÁÈ¿@ñµ!?Ãƒ˚¢\IÄsmpl_inv                                                PKS1936-623                                     4FGL J1941.3-6210                               >^.œ—)ö?ÙLCñŸπ“?µˇÄP5oò@®fcËÜ»?i≠29_ @zﬁ,NkÑ?∫±”VX smpl                                                    RBS1895                                         4FGL J2246.7-5207                               =:=foÎø˚íÿπ” ?ìì.3,u¿¿ÿ&æ‘—Ï?≤ g9•∞@BÑ¨Í†?—$w∆h∏smpl_inv                                                1RXSJ225146.9-320614                            4FGL J2251.7-3208                               <∆€∆!\ﬁã¿ÙH≈ªIr?îÜö”|ªÄø˙†/t;ÄF?üæ¯Z™è‡@∞hQ°?√%aª*–smpl_inv                                                PKS0521-36                                      4FGL J0522.9-3628                               =Ò Cù,¬∑?˚∑¥‰¸˜‹?ëÍ/`«`@&	¬ä-m?t¥s1º¸ @J.Ó9Ä?µqµV
+ smpl                                                    CenA                                            4FGL J1325.5-4300                               >≠∑”òä?¸—öˇ≠ñ§?bÜ4ª≈ @D’S>›√?g·–Ó @WÍä∏(?ç	]◊”Äsmpl                                                    3C120                                           4FGL J0433.0+0522                               =”P\≤¢Ô@YœRüm?âZ∞-Ä?ˇ‚≤^6{Ω?ÜÃ¬†1Ê@@ñ¿*G¨?≤ Òo1§†smpl                                                    NGC1275                                         4FGL J0319.8+4130                               =ö÷sàëÂ…?˘¡aü48?Ügc‘Y¶¿@i,≥i?zÅÒJ” @ﬂ‘©5º?∂Êtª‡smpl                                                    PKS2300-18                                      4FGL J2302.8-1841                               ?ö9fÅiP?Í¿Ngg≈l?Âàe5≥Ω@6!¢|?Éc9Û+k ?Ò◊dt∆—?ƒ»ˇµn®smpl                                                    QSOB0309+411                                    4FGL J0312.9+4119                               >rkL§≈Ô?˜L\^√w?∏ƒLÎ≥ @Ωﬁ’Ωç?•ê‹H†@¯ Rv¿?Àg¢Å«òsmpl                                                    1H0323+342                                      4FGL J0324.8+3412                               =ı¸Hπp≤@ˇ„<kmx?ÅK9·„ ?˘Ø‘Ìér!?¢â—ôö–@wÂœr:“?≤û,Ú„_@smpl                                                    3C380                                           4FGL J1829.5+4845                               >Iø„∂9˘?˜a®Cõ≤O?Ø≥±eÄﬁ @ŸÃ1?r˛À	–ƒ @Èt#4t?πŒ∑ÿ¿smpl                                                    PKS2005-489                                     4FGL J2009.4-4849                               >	*[ûNƒø¸
+Ë^á© ?q0f∏5MÄ¿AœF2q?ΩV¥Æ`V–@Åz‚ôË?«‰t:3®Äsmpl_inv                                                87GB050246.4+673341                             4FGL J0507.9+6737                               =nU∞kV©ø¯l§–@¬3?vIÀ¯ ¿ôcHT!ô?ÆWÕgËBÄ@S√m”?¬ö-I„Hsmpl_inv                                                2MASXJ03252346-5635443                          4FGL J0325.5-5635                               =¢N+qO6ø˛O8Z∞Ü~?Ñ∆Ãæ ¿∑bG®°?†^Pqñ"`@m∞ÄÙC?œıíKÁ0smpl_inv                                                PKS0607-549                                     4FGL J0608.9-5456                               >3π9XÇ£„@€&ä◊*?êM!¿CÄ?˜ ¡·É?‘÷°±nàF@	í>x7?ﬁEn⁄NdDsmpl                                                    B20920+39                                       4FGL J0923.5+3852                               > ˙C°˘0?ˆÎ˜n¢w?¥k¶‰U@”µËÛÚ?Ö Êè1”Ä@»Wú?ºÓ¡o÷¿smpl                                                    8C1849+670                                      4FGL J1849.2+6705                               >G[ˇ·?˜˜>nWø?≤æÄÙc≥¯@¯Î[`?°G˛_ @π5õ¶πª?Ã·ˆu!Pxsmpl                                                    RBS0315                                         4FGL J0224.9+1843                               >B!ÑÚ|>˝?˚XE´’¯?°`ÌA7Œ @\I\Ö?†˛‚“h∂@@	´.Ÿziå?¿A•cÛJsmpl                                                    4C+32.14                                        4FGL J0336.4+3224                               >3≠Iß|¨∏?˙f\på?óC∏ø“Ä@7ìöõª,?ë—:5' @„ßí÷,?∞Z3:‡Äsmpl                                                    PKS2008-159                                     4FGL J2011.6-1546                               =Ié¢Òy#Q?ˇvˆàÀÎ?üï	Ù¶ˆÄ@	Ω‚d±+ø?≤,Â}ê@££ärù?¿Œª°6∞êsmpl                                                    PKS2052-47                                      4FGL J2056.2-4714                               =˜Â”iz~4?˘c”Œd?óX%^"a†@ÏF¶ÖË?q>l,ƒ€ @&∏A?‡?≥T◊y“smpl                                                    PKS2145+06                                      4FGL J2148.6+0652                               =∫—d\ﬂh?˝⁄VA?®ûÎ.Çh`@ w7vê?ó\»ó @+›aqê≈?∆g0V@| smpl                                                    [HB89]0834-201                                  4FGL J0836.5-2026                               >?Ω>çì˙?ˆégÅë˙?µ3“Ï”R–@=÷ú∂v9?ï›Âè(Â¿@
+*∏ ï?ºDS°}L@smpl                                                    1RXSJ174036.3+521155                            4FGL J1740.5+5211                               =ıÑ3Ârn{?¯¿YZvã:?¨9¸SX@qÉœ4/÷?{6∆ú4 @&&†âí?¬›·˚≤‘`smpl                                                    2MASXJ06230765-6436211                          4FGL J0622.4-6433                               =Ñú√$¯@	;ea¿Ö?°oﬂê/ÆÄ?˛©Ô\˝'d?ßPî`Õê@¢=”æô?¬&∫˜9@smpl                                                    87GB162418.8+435342                             4FGL J1626.8+4337                               =WÂ”X‘Ä?ˇi⁄+)·?•≤S∑0P@k†ÕÖ}?†/“x≤†@¢I⁄nΩ˝?√zjO–êsmpl                                                    PKS2331-240                                     4FGL J2333.9-2343                               >X,4Ù‚ƒ‡?ı¡µ)„√?≤ı>Àò@◊ãr–ˇ?ëB6Ç'( @ã¯Â?µ”\-˚9smpl                                                    3C309.1                                         4FGL J1459.0+7140                               =˘MJl≈‡?˚≠’PJùπ?ªgíâ'◊ @˘5œ˚?å¬Ûs @ÿæ¿˘È?”ö?¥∆Eòsmpl                                                    [HB89]0716+714                                  4FGL J0721.9+7120                               >Ñ‰Ä0ãø„?m˜ˇ‹Í?é∞0Y8 @ Ñ@H|Sü?GaE¸Ë @i—*°—?lT°í smpl                                            ?      BLLac                                           4FGL J2202.7+4216                               >:ÎË”vw?¯é®SÅ“+?mdÎOP¨ @FrQíÏ?PÄÙm‘ @ÎI‘˘•?q°C smpl                                            ?      [HB89]2230+114                                  4FGL J2232.6+1143                               >Bæﬂ	iô?ÛãXPkîÿ?q¨ßnmÄ@X(b>!f?Có‰©fà @êk›å|?cCºÀ smpl                                            ?      [HB89]1334-127                                  4FGL J1337.6-1257                               =»ØÂãcªw?¸’ ˚∏jˇ?~:†7äT @}AÚF8Æ?unàˆÈ- @≤Õ›ÚÖ”?ìnË/ÊN smpl                                            ?      PKS0426-380                                     4FGL J0428.6-3756                               ?AéR2BØ?ˆ‚˛î,Æ^@∂tŒy@˛ôÅäëP@õ2Tg“?1üì£t@wBYEhàsmpl                                            @                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       

@@ -374,15 +374,15 @@ class LightCurve:
             y = np.ones(len(x)) * np.max(self.flux)
             y1 = np.min(self.flux)
             if i == 0:
-                ax.fill_between(x, y, y1, step="mid", color='lightsalmon', alpha=0.2,
+                ax.fill_between(x, y, y1, step="mid", color='#FDBF6F', alpha=0.5,
                                  label='hop', zorder=0)
             if i == 1:
-                ax.fill_between(x, y, y1, step="mid", color='orchid', alpha=0.2, label='hop',
+                ax.fill_between(x, y, y1, step="mid", color='#A6CEE3', alpha=0.5, label='hop',
                                  zorder=0)
             elif i % 2:
-                ax.fill_between(x, y, y1, step="mid", color='orchid', alpha=0.2, zorder=0)
+                ax.fill_between(x, y, y1, step="mid", color='#A6CEE3', alpha=0.5, zorder=0)
             elif i != 0:
-                ax.fill_between(x, y, y1, step="mid", color='lightsalmon', alpha=0.2, zorder=0)
+                ax.fill_between(x, y, y1, step="mid", color='#FDBF6F', alpha=0.5, zorder=0)
         #ax.set_title(lc.name, hop.method)
 
     #----------------------------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+source_name_below_50,source_name_below_20,instances_mdp99_lt_50,instances_mdp99_lt_20,lowest_mdp99_percent,bkg,spectrum,threshold_percent,source_table
+4FGL J1129.8-1447,4FGL J1129.8-1447,10,3,10.812989092220953,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1512.8-0906,4FGL J1512.8-0906,8,1,19.71152684671988,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1229.0+0202,4FGL J1229.0+0202,7,5,5.147378886584486,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2253.9+1609,4FGL J2253.9+1609,6,4,3.5224534856997747,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2232.6+1143,4FGL J2232.6+1143,6,2,16.184416354805748,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2151.8-3027,4FGL J2151.8-3027,5,2,11.936579282949424,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0841.3+7053,4FGL J0841.3+7053,3,2,10.320640787019643,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1256.1-0547,,3,0,25.045312486016545,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0539.9-2839,,2,0,26.97368856723385,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1224.9+2122,,2,0,28.88307941599122,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2202.7+4216,,2,0,42.73120968496479,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1159.5+2914,,1,0,22.239921829546162,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0403.9-3605,,1,0,33.741715013241816,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1332.0-0509,,1,0,37.66931543992033,1.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv

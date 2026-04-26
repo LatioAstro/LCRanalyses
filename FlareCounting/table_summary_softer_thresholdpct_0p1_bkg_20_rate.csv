@@ -1,0 +1,2 @@
+source_name_below_50,source_name_below_20,total_flares_mdp99_lt_50,total_flares_mdp99_lt_20,bkg,spectrum,threshold_percent
+"['4FGL J1129.8-1447', '4FGL J1229.0+0202', '4FGL J2253.9+1609', '4FGL J1512.8-0906', '4FGL J2151.8-3027', '4FGL J1256.1-0547', '4FGL J0841.3+7053', '4FGL J2232.6+1143', '4FGL J1159.5+2914', '4FGL J0539.9-2839', '4FGL J1224.9+2122', '4FGL J0403.9-3605']","['4FGL J1129.8-1447', '4FGL J1229.0+0202', '4FGL J2253.9+1609', '4FGL J2151.8-3027', '4FGL J0841.3+7053']",40,12,20,softer,0.1

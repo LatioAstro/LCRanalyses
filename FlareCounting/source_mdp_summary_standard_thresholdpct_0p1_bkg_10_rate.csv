@@ -1,0 +1,4 @@
+source_name_below_50,source_name_below_20,instances_mdp99_lt_50,instances_mdp99_lt_20,lowest_mdp99_percent,bkg,spectrum,threshold_percent,source_table
+4FGL J1229.0+0202,4FGL J1229.0+0202,5,1,15.652898482199229,10.0,standard,0.1,COSI_factors_all_updated_only_logpar_flare_updated_60deg_offaxis_last.csv
+4FGL J2253.9+1609,4FGL J2253.9+1609,3,1,14.740743715611346,10.0,standard,0.1,COSI_factors_all_updated_only_logpar_flare_updated_60deg_offaxis_last.csv
+4FGL J2151.8-3027,,1,0,49.0665190908488,10.0,standard,0.1,COSI_factors_all_updated_only_logpar_flare_updated_60deg_offaxis_last.csv

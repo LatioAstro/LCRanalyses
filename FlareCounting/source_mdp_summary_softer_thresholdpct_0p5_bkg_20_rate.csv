@@ -1,0 +1,13 @@
+source_name_below_50,source_name_below_20,instances_mdp99_lt_50,instances_mdp99_lt_20,lowest_mdp99_percent,bkg,spectrum,threshold_percent,source_table
+4FGL J1129.8-1447,4FGL J1129.8-1447,9,1,13.850864122876839,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1229.0+0202,4FGL J1229.0+0202,7,5,6.402137305264375,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2253.9+1609,4FGL J2253.9+1609,6,4,4.278870434959677,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1512.8-0906,,4,0,26.58330395818676,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2151.8-3027,4FGL J2151.8-3027,3,1,16.135059453787292,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1256.1-0547,,3,0,34.03835021082992,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0841.3+7053,4FGL J0841.3+7053,2,1,13.708019956341513,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J2232.6+1143,,2,0,21.814472363490484,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1159.5+2914,,1,0,30.143486705136773,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0539.9-2839,,1,0,36.93236813056292,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J1224.9+2122,,1,0,39.17221553114613,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
+4FGL J0403.9-3605,,1,0,46.06242118265985,20.0,softer,0.5,COSI_factors_all_updated_only_logpar_flare_softer_+0.5_updated_60deg_offaxis_last.csv
